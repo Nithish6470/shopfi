@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+    margin: 0px 5px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid white;
+}
+#Home{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(image1.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#Home h1{
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: white;
+}
+#Home p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+#Home a{
+    font-weight: 400;
+}
+#About{
+    background-color: rgb(217, 234, 248);
+}
+#About h1{
+    font-weight: 200;
+    font-size: 40px;
+}
+#Product{
+    background: rgb(216, 216, 216);
+}
+#Product h1{
+    font-weight: 200;
+    font-size: 50px;
+}
+#Product img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.card{
+    width: 250px;
+    height: 330px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+    margin: 30px 60px;
+}
